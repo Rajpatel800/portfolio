@@ -3,9 +3,9 @@
   "name": "raj-patel-portfolio",
   "framework": null,
   "buildCommand": null,
-  "outputDirectory": "Portfolio",
+  "outputDirectory": ".",
   "rewrites": [
-    { "source": "/", "destination": "/Portfolio/portfolio.html" }
+    { "source": "/", "destination": "/index.html" }
   ],
   "headers": [
     {
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "source": "/Portfolio/(.*)",
+      "source": "/(.*\\.(jpg|jpeg|png|gif|svg|ico|css|js))",
       "headers": [
         {
           "key": "Cache-Control",
