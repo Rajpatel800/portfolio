@@ -1,0 +1,13 @@
+{
+  "name": "raj-patel-portfolio",
+  "version": "1.0.0",
+  "description": "Raj Patel's AI/ML Developer Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": ["portfolio", "ai", "ml", "developer"],
+  "author": "Raj Patel",
+  "license": "MIT"
+}
